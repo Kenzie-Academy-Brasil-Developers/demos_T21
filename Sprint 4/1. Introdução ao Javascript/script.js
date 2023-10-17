@@ -1,45 +1,68 @@
-// console.log('Testando');
-/* console.error('Testando'); */
+console.log("Olá T21")
 
-//VARIAVEIS
-let palavra1 = "Kenzie";
-const palavra2 = "Academy"; 
+// Variáveis
 
-let frase = palavra1 + palavra2;
+// let  (pode ser reatrubuido o valor)
 
-console.log(frase);
-console.log(palavra1);
-console.log(palavra2);
+//  - Declaração de variável
+let nome = "Alex"
+console.log(nome)
 
-palavra1 = "Escola";
-console.log(palavra1);
+// - Reatribuir o valor de uma variável
 
-palavra2 = "Escola";
+nome = "Thiago"
+console.log(nome)
+
+// Operação matemática 
+
+let numero1 = 19
+let numero2 = 5
+
+let total = numero1 + numero2
+// let total = 19 + 5
+console.log(total)
+
+// console.log(num1 + num2)
+
+// const (NÃO pode ser reatrubuido o valor)
+
+const cpf = 12345678900
+
+// cpf = 11111111111
+
+console.log(cpf)
+
+// var (NÃO UTILIZAMOS MAIS)
+
+// var idade = 19
+// console.log(idade)
+
+// idade = 20
+// console.log(idade)
+
+// Tipos de Variáveis
+// 1 - Inteiro (number)
+
+let idade = 19
+let numero = 100000
+
+// 2 - Float (number )
+
+let peso = 85.5
+
+// 3 - String (string)
+
+let sobrenome = "Sakaki Silva"
+let texto = "Olá turma 21. Bem vindos a nossa demo de JS."
+
+// 4 - Boleano (boolean)
+
+let verdadeiro = true
+console.log(verdadeiro)
+let falso = false
 
 
-//TIPOS DE VALORES
-let numero = 12; //number
-let texto = "Kenzie Academy Brasil"; //string
-let boleano = true; //boolean
-
-console.log(typeof numero);
-console.log(typeof texto);
-console.log(typeof boleano);
+// console.log(sobrenome)
 
 
-//OPERAÇÕES MATEMATICAS
-const a = 3;
-const b = 12;
-
-const soma = a + b;          //3 + 12 = 15
-const subtracao = b - a;     //12 - 3 = 9
-const multiplicacao = b * a; //12 * 3 = 36
-const divisao = b / a;       //12 / 3 = 4
-
-console.log(soma, subtracao, multiplicacao, divisao);
-
-const potencia = a**2;       //3² = 9
-console.log(potencia);
-
-
-// let temSocorro = false;
+// let podeEntrar = true
